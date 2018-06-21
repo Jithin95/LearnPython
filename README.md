@@ -8,23 +8,23 @@ It enables multiple side-by-side installations of Python, one for each project.
 It doesn’t actually install separate copies of Python, but it does provide a
 clever way to keep different project environments isolated.
 
-###Install Virtualenv:
+### Install Virtualenv:
     pip install virtualenv
 
-###Create Virtualenv:
+### Create Virtualenv:
 
     virtualenv env_name
 
-    >with default Python
+    > with default Python
 
     virtualenv -p /usr/bin/python3 env_name
 
-    >with Python3
+    > with Python3
 
-###Active your virtual environment:
+### Active your virtual environment:
 
     source env_name/bin/activate
 
-###Deactivate:
+### Deactivate:
 
     deactivate
