@@ -15,11 +15,11 @@ clever way to keep different project environments isolated.
 
     virtualenv env_name
 
-    > with default Python
+> with default Python
 
     virtualenv -p /usr/bin/python3 env_name
 
-    > with Python3
+> with Python3
 
 ### Active your virtual environment:
 
